@@ -75,10 +75,9 @@ def pcl_repositories():
     maybe(
         http_archive,
         name = "pcl",
-        sha256 = "8ab98a9db371d822de0859084a375a74bdc7f31c96d674147710cf4101b79621",
         build_file = "@rules_pcl//third_party:pcl.BUILD",
-        strip_prefix = "pcl-pcl-1.13.1",
-        urls = ["https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.13.1.tar.gz"],
+        strip_prefix = "pcl-pcl-1.10.0",
+        urls = ["https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.10.0.tar.gz"],
     )
 
     maybe(
