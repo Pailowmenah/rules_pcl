@@ -424,6 +424,7 @@ pcl_library(
         "@boost//:dynamic_bitset",
         "@eigen",
         "@qhull//:libqhull_r",
+        "@qhull//:libqhull",
     ],
 )
 
