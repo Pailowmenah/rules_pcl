@@ -71,7 +71,7 @@ pcl_library(
     deps = [
         ":common",
         "@boost//:operators",
-        "@boost//:version",
+        "@boost//:config",
         "@eigen",
     ],
 )
@@ -206,7 +206,7 @@ pcl_library(
         "@boost//:smart_ptr",
         "@boost//:tokenizer",
         "@boost//:utility",
-        "@boost//:version",
+        "@boost//:config",
         "@org_libpng_libpng//:libpng",
     ],
 )
@@ -378,7 +378,7 @@ pcl_library(
         "@boost//:graph",
         "@boost//:multi_array",
         "@boost//:ptr_container",
-        "@boost//:version",
+        "@boost//:config",
         "@eigen",
         "@flann",
     ],
